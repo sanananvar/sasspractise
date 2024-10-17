@@ -1,0 +1,36 @@
+@media (max-width:576px){
+    .header{
+
+        .header-wrapper{
+
+            .nav-list{
+                i{
+                    display: flex !important;
+                }
+                :not(.fa-solid){
+                    display: none !important;
+                }
+            }
+        }
+    }
+
+    .hero{
+        .hero-wrapper{
+            .hero-card{
+                max-width: 250px;
+            }
+        }
+    }
+
+    .blog{
+        .blog-wrapper{
+            @include flex(flex,flex-start,flex-start,column,20px);
+
+            .blog-card{
+                width: 100%;
+            }
+
+            
+        }
+    }
+}

@@ -1,0 +1,155 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: #222;
+}
+.header .nav-list {
+  height: 100%;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.header .nav-list a {
+  height: 100%;
+  width: 20%;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .nav-list :nth-child(2) {
+  background-color: black;
+}
+.header .nav-search {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.header .nav-search input {
+  height: 35px;
+  width: 200px;
+}
+.header .nav-search button {
+  height: 35px;
+  width: 60px;
+}
+
+.hero {
+  height: 400px;
+  width: 100%;
+  background-color: yellowgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.hero h1 {
+  font-size: 80px;
+  opacity: 0.1;
+}
+.hero p {
+  opacity: 0.1;
+}
+.hero button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #337ab7;
+  border: none;
+}
+
+#products {
+  display: flex;
+  justify-content: center;
+}
+#products .product-container {
+  min-height: 700px;
+  max-width: 90%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-direction: column;
+}
+#products .product-container .cards {
+  display: flex;
+}
+#products .product-container .cards .card {
+  padding: 10px;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+#products .product-container .cards .card img {
+  height: 90%;
+  width: 100%;
+}
+#products .product-container .cards .card span {
+  font-size: 20px;
+}
+#products .product-container .cards .card span a {
+  text-decoration: none;
+  color: rgb(87, 87, 183);
+}
+#products .product-container .cards .card p {
+  text-align: center;
+}
+
+.blog {
+  max-width: 100%;
+  min-height: 400px;
+  background-color: goldenrod;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.blog .blog-card {
+  height: 400px;
+  width: 400px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.blog .blog-card img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.blog .blog-card button {
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+}
+
+footer {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+footer p {
+  display: flex;
+  gap: 10px;
+}/*# sourceMappingURL=style.css.map */

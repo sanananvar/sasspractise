@@ -1,0 +1,32 @@
+
+@media (max-width:576px){
+    .nav-list a:not(.first){
+        display: none !important;
+    }
+
+    .nav-search{
+
+        input{
+            display: none;
+        }
+
+        button{
+            display: none;
+        }
+
+        i{
+            
+            color: white;
+        }
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+
+
+    .blog{
+        align-items: center;
+        flex-direction: column;
+    }
+}
